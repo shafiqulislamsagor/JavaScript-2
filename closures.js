@@ -48,3 +48,12 @@ class Model extends Car {
 let myCar = new Model("Ford", "Mustang");
 
 console.log(myCar.show());
+
+console.log('Line 1 code');
+setTimeout(function(){
+    console.log('Line 2 code')
+},5000);//setTimeout 5000 mimisec ar por  asbe..
+console.log('Line 3 code')
+setInterval(function(){
+    console.log('Line 4 code')
+},2000) // setInterval 2000 milisec ar por por asbe..
